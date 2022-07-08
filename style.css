@@ -26,6 +26,7 @@ header {
 
 .landing .container_solid {
   background: white;
+  z-index: 11;
   
   /* position this container at the top of its parent element */
   top: 0;
@@ -61,7 +62,7 @@ header {
     font-weight: 900;
   }
 
-  .landing .container_solid .title_wrapper h1 {
+.landing .container_solid .title_wrapper h1 {
   /* the text background */
   background: url(./images/isalnd.jpg);
   background-size: 100vw auto;
@@ -78,28 +79,28 @@ header {
 }
 
 .landing .container_solid .title_wrapper h2 {
-    /* the text background */
-    background: url(./images/isalnd.jpg);
-    background-size: 100vw auto;
-    background-position: center;
-    
-    /* clip the text is possible */
-    text-fill-color: transparent;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-    
-    /* fallback text color */
-    color: black;
-  }
+  /* the text background */
+  background: url(./images/isalnd.jpg);
+  background-size: 100vw auto;
+  background-position: center;
+  
+  /* clip the text is possible */
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  
+  /* fallback text color */
+  color: black;
+}
 
 
-  .landing .container_image {
+.landing .container_image {
   background-image: url(./images/isalnd.jpg);
   background-size:100vw auto;
   background-position: center;
   background-attachment: fixed;
-  
+
   /* position the second container below the first container */
   top: 100vh;
 }
@@ -135,7 +136,11 @@ header {
   max-width: 800px;
 }
 
-
+.flipbook2text p{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+}
 
 /* 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -245,4 +250,108 @@ body{
   background: url(./images/city5.jpg);
   background-position: center;
   background-size:cover;
+}
+
+
+
+
+
+.flipbook2 .item {
+  width: 80%;
+  height: 700px;
+  margin: 75px auto;
+  background: white;
+}
+
+.flipbook2 .item:nth-child(1){
+  background: url(./images/reaper.jpg);
+  background-position: center;
+  background-size:cover;
+}
+
+.flipbook3 .item {
+  width: 80%;
+  height: 700px;
+  margin: 75px auto;
+  background: white;
+}
+.flipbook3 .item:nth-child(1){
+  background: url(./images/block.jpg);
+  background-position: center;
+  background-size:cover;
+}
+
+
+
+.upflip .page{
+  box-sizing: border-box;
+  height: 100vh;
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.upflip .fs {
+  z-index: 5;
+  background: url(./images/Base.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.upflip .sc {
+  z-index: 4;
+  background: url(./images/Quantized.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.upflip .th {
+  z-index: 3;
+  background: url(./images/Spiderverse.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+
+.flipbook4 .item {
+  width: 90%;
+  height: 800px;
+  margin: 75px auto;
+  background: white;
+}
+
+.flipbook4 .item:nth-child(1){
+  background: url(./images/car0.jpg);
+  background-position: center;
+  background-size:cover;
+}
+.flipbook4 .item:nth-child(2){
+  background: url(./images/car1.jpg);
+  background-position: center;
+  background-size:cover;
+}
+.flipbook4 .item:nth-child(3){
+  background: url(./images/car2.jpg);
+  background-position: center;
+  background-size:cover;
+}
+.flipbook4 .item:nth-child(4){
+  background: url(./images/car3.jpg);
+  background-position: center;
+  background-size:cover;
+}
+
+body {
+  min-height: 200vh;
+}
+
+#scroll-progress {
+  position: fixed;
+  bottom: 0;
+  width: 0%;
+  height: 6px;
+  background: black;
+  z-index: 10;
 }
