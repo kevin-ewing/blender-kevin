@@ -81,7 +81,7 @@ header {
 .landing .container_solid .title_wrapper h2 {
   /* the text background */
   background: url(./images/isalnd.jpg);
-  background-size: 100vw auto;
+  background-size: cover;
   background-position: center;
   
   /* clip the text is possible */
@@ -97,7 +97,7 @@ header {
 
 .landing .container_image {
   background-image: url(./images/isalnd.jpg);
-  background-size:100vw auto;
+  background-size:cover;
   background-position: center;
   background-attachment: fixed;
 
