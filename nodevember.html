@@ -6,15 +6,52 @@
   <link rel="stylesheet" href="./main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel='stylesheet' href='https://unpkg.com/aos@2.3.0/dist/aos.css'>
-
+  <link rel="stylesheet" href="nodevember.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
 </head>
 <body>
 
+
+<!-- partial:index.partial.html -->
+<nav class="toc">
+	<ul>
+		<li><a href="#intro">Intro</a></li>
+		<li>
+			<a href="#week1">Week 1</a>
+			<ul>
+				<li><a href="#bw">b&w</a></li>
+			</ul>
+		</li>
+    <li>
+			<a href="#week2">Week 2</a>
+			<ul>
+				<li><a href="#rubiks">rubiks</a></li>
+			</ul>
+		</li>
+    <li>
+			<a href="#week3">Week 3</a>
+			<ul>
+				<li><a href="#donut">donut</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#week4">Week 4</a>
+			<ul>
+				<li><a href="#world">world</a></li>
+			</ul>
+		</li>
+	</ul>
+  <svg class="toc-marker" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+    <path stroke="#444" stroke-width="3" fill="transparent" stroke-dasharray="0, 0, 0, 1000" stroke-linecap="round" stroke-linejoin="round" transform="translate(-0.5, -0.5)" />
+  </svg>
+</nav>
+
+
 <div id="scroll-progress"></div>
 <button class="button-17" role="button" onclick="location.href = 'index.html'">Home</button>
 
-<div class="landing">
+<div class="landing" id ="intro">
   <section>
       <h2>Nodevember</h2>
       <p>
@@ -34,9 +71,32 @@
   </section>
 </div>
 
-<!-- <img src="./nodevember/donut.png" alt="donut" class="nodevember-image">
-<img src="./nodevember/rubiks.png" alt="rubiks" class="nodevember-image">
-<img src="./nodevember/donut.png" alt="donut" class="nodevember-image">
+<div id="week1">
+  <div id="bw">
+    <img src="./nodevember/black_and_white.jpg" alt="black_and_white" class="nodevember-image">
+  </div>
+</div>
+
+<div id="week2">
+  <div id="rubiks">
+    <img src="./nodevember/rubiks.jpg" alt="rubiks" class="nodevember-image">
+  </div>
+</div>
+
+<div id="week3">
+  <div id="donut">
+    <img src="./nodevember/donut.jpg" alt="donut" class="nodevember-image">
+  </div>
+</div>
+
+<div id="week4">
+  <div id="world">
+    <img src="./nodevember/world.jpg" alt="world" class="nodevember-image">
+  </div>
+</div>
+
+
+<!--
 <img src="./nodevember/rubiks.png" alt="rubiks" class="nodevember-image">
 <img src="./nodevember/donut.png" alt="donut" class="nodevember-image">
 <img src="./nodevember/rubiks.png" alt="rubiks" class="nodevember-image">
@@ -62,6 +122,9 @@
         Copyright © 2022 Kevin Ewing
     </p>
 </div>
+
+<!-- partial -->
+  <script  src="./test/script.js"></script>
 
 </body>
 

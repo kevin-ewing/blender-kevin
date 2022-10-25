@@ -123,6 +123,7 @@ header {
 .landing section h2 {
   font-size: 40px;
   font-family: 'Kanit', sans-serif;
+  line-height: 2.5;
 }
 
 .landing section h3 {
@@ -131,6 +132,7 @@ header {
 }
 
 .landing section p {
+    line-height: 2.5;
     font-family: 'Martel Sans', sans-serif;
 }
 
@@ -411,13 +413,4 @@ body {
 .button-17:hover {
   background: #F6F9FE;
   color: #a57433;
-}
-
-.nodevember-image {
-  width: 100vw;
-  height: auto;
-  max-width: none;
-  max-height: 100vh;
-  object-fit: contain;
-  margin: 0.5rem;
 }
