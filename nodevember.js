@@ -4,8 +4,8 @@ var tocItems;
 
 // Factor of screen size that the element must cross
 // before it's considered visible
-var TOP_MARGIN = 0.1,
-    BOTTOM_MARGIN = 0.2;
+var TOP_MARGIN = 0.6,
+    BOTTOM_MARGIN = 0.4;
 
 var pathLength;
 
