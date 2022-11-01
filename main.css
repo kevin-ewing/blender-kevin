@@ -79,19 +79,8 @@ header {
 }
 
 .landing .container_solid .title_wrapper h2 {
-  /* the text background */
-  background: url(./images/isalnd.jpg);
-  background-size: cover;
-  background-position: center;
-  
-  /* clip the text is possible */
-  text-fill-color: transparent;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
-  
   /* fallback text color */
-  color: black;
+  color: white;
 }
 
 
