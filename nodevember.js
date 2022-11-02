@@ -134,5 +134,5 @@ function detectmobile() {
 }
 
 if ( detectmobile() && document.documentElement.clientWidth <= 768 ){
-  window.location.href = 'mobile.html';
+  window.location.href = 'https://www.cs.middlebury.edu/~kewing/mobile.html';
 }
