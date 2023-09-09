@@ -64,7 +64,7 @@ header {
 
 .landing .container_solid .title_wrapper h1 {
   /* the text background */
-  background: url(./images/isalnd.jpg);
+  background: url(./2021/isalnd.jpg);
   background-size: 100vw auto;
   background-position: center;
   
@@ -85,7 +85,7 @@ header {
 
 
 .landing .container_image {
-  background-image: url(./images/isalnd.jpg);
+  background-image: url(./2021/isalnd.jpg);
   background-size:cover;
   background-position: center;
   background-attachment: fixed;
@@ -176,7 +176,7 @@ body{
     top:0;
     width:100%;
     height:100vh;
-    background: url(./images/house.jpg);
+    background: url(./2021/house.jpg);
     background-size:cover;
     background-position: center;
 }
@@ -185,7 +185,7 @@ body{
     top:0;
     width:100%;
     height:100vh;
-    background: url(./images/farm.jpg);
+    background: url(./2021/farm.jpg);
     background-size:cover;
     background-position: center;
 }
@@ -194,7 +194,7 @@ body{
     top:0;
     width:100%;
     height:100vh;
-    background: url(./images/snow.jpg);
+    background: url(./2021/snow.jpg);
     background-size:cover;
     background-position: center;
 }
@@ -203,7 +203,7 @@ body{
   top:0;
   width:100%;
   height:100vh;
-  background: url(./images/beach.jpg);
+  background: url(./2021/beach.jpg);
   background-size:cover;
   background-position: center;
 }
@@ -234,27 +234,27 @@ body{
 }
 
 .flipbook .item:nth-child(1){
-  background: url(./images/city1.jpg);
+  background: url(./2021/city1.jpg);
   background-position: center;
   background-size:cover;
 }
 .flipbook .item:nth-child(2){
-  background: url(./images/city2.jpg);
+  background: url(./2021/city2.jpg);
   background-position: center;
   background-size:cover;
 }
 .flipbook .item:nth-child(3){
-  background: url(./images/city3.jpg);
+  background: url(./2021/city3.jpg);
   background-position: center;
   background-size:cover;
 }
 .flipbook .item:nth-child(4){
-  background: url(./images/city4.jpg);
+  background: url(./2021/city4.jpg);
   background-position: center;
   background-size:cover;
 }
 .flipbook .item:nth-child(5){
-  background: url(./images/city5.jpg);
+  background: url(./2021/city5.jpg);
   background-position: center;
   background-size:cover;
 }
@@ -271,7 +271,7 @@ body{
 }
 
 .flipbook2 .item:nth-child(1){
-  background: url(./images/reaper.jpg);
+  background: url(./2021/reaper.jpg);
   background-position: center;
   background-size:cover;
 }
@@ -283,7 +283,7 @@ body{
   background: white;
 }
 .flipbook3 .item:nth-child(1){
-  background: url(./images/block.jpg);
+  background: url(./2021/block.jpg);
   background-position: center;
   background-size:cover;
 }
@@ -301,21 +301,21 @@ body{
 }
 .upflip .fs {
   z-index: 5;
-  background: url(./images/Base.jpg);
+  background: url(./2021/Base.jpg);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
 }
 .upflip .sc {
   z-index: 4;
-  background: url(./images/Quantized.jpg);
+  background: url(./2021/Quantized.jpg);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
 }
 .upflip .th {
   z-index: 3;
-  background: url(./images/Spiderverse.jpg);
+  background: url(./2021/Spiderverse.jpg);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -330,22 +330,22 @@ body{
 }
 
 .flipbook4 .item:nth-child(1){
-  background: url(./images/car0.jpg);
+  background: url(./2021/car0.jpg);
   background-position: center;
   background-size:cover;
 }
 .flipbook4 .item:nth-child(2){
-  background: url(./images/car1.jpg);
+  background: url(./2021/car1.jpg);
   background-position: center;
   background-size:cover;
 }
 .flipbook4 .item:nth-child(3){
-  background: url(./images/car2.jpg);
+  background: url(./2021/car2.jpg);
   background-position: center;
   background-size:cover;
 }
 .flipbook4 .item:nth-child(4){
-  background: url(./images/car3.jpg);
+  background: url(./2021/car3.jpg);
   background-position: center;
   background-size:cover;
 }
